@@ -1,10 +1,15 @@
 const body = document.querySelector("body")
-let body_mobile = body.clientWidth
-console.log(body_mobile)
-
 const main_content = document.querySelector("main")
-console.log(main_content)
+let body_mobile = body.clientWidth
 
 if (body_mobile < 780) {
     main_content.setAttribute("class", "container")
 }
+
+
+
+const carrosel = () => {
+    const images_carrosel = document.querySelector(".images")
+    console.log(images_carrosel.src)
+}
+
